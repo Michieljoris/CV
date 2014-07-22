@@ -1,0 +1,24 @@
+* Install json_resume
+
+gem install json_resume
+json_resume --help         
+
+sudo apt-get install wkhtmltopdf
+sudo apt-get install texlive-latex-base
+sudo apt-get install texlive-latex-extra
+sudo apt-get install latex-xcolor
+sudo apt-get install pgf
+sudo apt-get install cm-super
+
+Or install manually?
+http://www.tug.org/texlive/quickinstall.html
+
+
+
+I did fork it to 
+https://github.com/Michieljoris/json_resume
+
+* Create resume
+node resume.js 
+
+
