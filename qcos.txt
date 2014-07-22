@@ -1,0 +1,108 @@
+Dear Tina Fairly,
+
+Please see the attachment for my response to the selection criteria for the position of Web Development officer as advertised on the QCOSS website.
+
+For ease of access I have also copied my response to the bottom of this email.
+For my resume and other relevant personal information I refer you to my stackoverflow or linkedin profile.
+
+My own personal website axion5.net lists and summarizes undertaken projects and websites.
+
+Referees:
+
+David Isit
+
+Manager of Pave the Way at Mamre Association Inc. 
+
+ph: 0419 885 635 
+email: david.isitt@pavetheway.org.au
+Manuel Garcia
+
+Area coordinator at Multicap 
+
+ph : 0427 174 397 
+email: manuelg@multicap.org.au
+Thank you for your time in considering my application.
+
+Yours sincerely,
+
+Michiel van Oosten
+
+ph: 04135 20477
+
+ 
+--------------------------------------------------------------------------------
+Response to selection criteria:
+Technologies:
+
+Drupal
+
+As listed on my own website I have so far undertaken a number of projects, some of which have been websites using the Drupal CMS (version 7). I find Drupal to be a stable and flexible framework, though sometimes somewhat cumbersome to work with. I have tried both Joomla and Wordpress but found them both lacking in customizability. I have explored Drupal's features and options as far as I needed them to build my sites.
+
+I have written my own server and website builder and prefer them to build smaller sites. I understand what's involved in building a CMS framework, and that's why I am confident that whatever is needed to customize or extend the QCOSS websites I will be able to do, down to the level of patching, modifying or even write the PHP modules that enable Drupal's functionality. Since I can write html and css by hand I will be able to modify or extend any theme that Drupal might be using and I have in fact done so.
+
+Linux
+
+I host sites on a Linux VPS whenever I can to facilitate working on the backend and basically to have everything under total control. I am not an expert on Linux system management but I am able to install, configure, secure and then manage a basic Linux installation. I use Ubuntu on servers and personally use Arch Linux for daily work.
+
+Mysql
+
+Drupal of course runs of a mysql database. I understand the principles of a relational database. I understand to some degree the mysql language, however I have not had to use mysql directly very often. I have a much better understanding of CouchDB and its API since I wrote a major app(used by some people at Multicap) using it as its back end, though that's not going to help me with a relational database too much of course since CouchDB is document based. However I am confident that I will be able (to learn quickly) the internals of a mysql database, possible script or query it or call its API directly from PHP, if that were ever necessary.
+
+css
+
+I have adapted or written the css for all my sites. Again I am not an expert but can make it do what I want. Also I am not a designer so I end up endlessly fiddling till it looks right, I can judge whether something is aesthetically pleasing, but miss the artistic flair to design it from the start.
+
+Other
+
+I have some experience using GIMP, basically to prepare images for a site.
+
+I looked into CiviCRM and though simple in principle, found it full-featured enough to adopt and will be using it to organize and make easily accessible the internal contacts database at Mamre. I had originally intended to write my own front end, replacing what they are using at the moment, but your job ad brought it to my attention, and if nothing else comes of this application I at least thank you for that!
+
+I had a quick look at Moodle LMS. I understand this is part of the Community Door project and its on line learning offerings. I would be very interested to learn more about Moodle and how it has been implemented. I'll make a further study of it anyway.
+
+As I said before I can't say I am an expert in any of the above technologies, but I do have a very good knowledge of javascript, and by extension a decent working knowledge of JQuery. I can read PHP, as I can read a number of other languages, and with a bit of effort I will be able to write it if necessary.
+
+In summary:
+I am very confident that I will be able to satisfactorily fulfill at the very least the technical requirements of this job. I have been a programmer since I was 13 years of age. a Maths geek at high school and was destined to complete a Maths degree before life took me in different directions. I am a fast learner. I will literally not rest before I find an easy and/or elegant solution to complex problems. This is not a choice unfortunately, it might be a bane, I can't let go. Creating new things is wonderful.
+Social skills
+
+Getting better all the time!
+
+In all seriousness:
+
+I have been teaching piano for more than a decade now, interacting with students and their parents. The feedback I have them from them and other people is that I seem to have a very gentle and non-confrontational manner about me, making it very easy to talk to me. When I feel I need to make a point I will express myself clearly, but generally I try not to force issues.
+
+I have recently been a team leader at a disability support house for a short while and was able to organize and create a reliable team, with an open communication. I was not able to continue in that role after a while since I was only a part time employee. As a regular shift worker of course effective communication between team members regarding the support work was always essential anyway. I have done part time disability for more than 10 years now, only resigning recently.
+
+I have demonstrated software and web tools at both Multicap and Mamre. The feedback is generally is that I seem to be able to talk to people at their level of understanding. I know that any lack of understanding on a student's part is only remedied by a better understanding of the student's true abilities by the teacher, this approach has always helped me very much with teaching piano to students of all levels.
+
+Professional social skills
+
+I am afraid I have not very much experience with working with stakeholders, suppliers, consultants etc, other than my communication with my own clients and students. I am sure though that if I feel that something really needs to get done I will be able to work very productively with whoever is on board to achieve the goals set out. To be honest, this will be the challenge for me in this job to overcome since as far as websites and programming are concerned I have always worked on my own.
+
+New technical skills
+
+I live for them. Especially if they make me work faster and more efficiently. I am writing in javascript, css and html, but am itching to move away, preferably to a Lisp based language. I am always looking for frameworks, libraries, tools to make my work easier. I explored all the CMS frameworks when somebody asked me to build a portfolio site for them, and only settled on Drupal when I realized it may not be the easiest, comparatively speaking, but certainly is the most flexible. Any more flexible and you'd be programming. The development of web tools and frameworks moves very quickly, almost progressing (mostly) from month to month. Sometimes however all the new kids on the block are reinventing the wheel somewhat. They are rediscovering principles sometimes decades old, from before the internet was born, which incidentally I remember..
+
+Working on my own
+
+I work very well on my own and can organize and plan my work quite well. Again software tools are a great help. I am basically self-taught, after having being shown the way initially by my father. I am looking forward to working with other people and share a vision and goals and use and develop and use the right tools to achieve the vision, and bring the goals closer to finish. I have come to realize in the last few years that I can only do so much by myself in a day. I have ideas and projects I want to work on, but just don't not enough time to complete or even start them all. So there is a limit to what I can build on my own, unless I lock myself up for a year. Collaboration might be the way to go.
+
+Social justice
+
+I feel you can't really demonstrate a commitment to social justice unless you're on the receiving end of social injustice or you make it your passion or drive in your life. I can say however I am a commited pacifist. I am from a basically socialist country (Holland), where I feel the social structure is in some ways much better organized, with better and more effective social safety nets and more recourse for the less advantaged. Life is easy here though, also for me, as a white European in this western country.
+
+What follows is some personal experiences and opinions regarding social justice:
+
+One thing I am really appalled by as an immigrant to this country, and I'd be ashamed of it if I was a native Australian is the treatment and condition of Aboriginals in general. The cultural chasm between outback and city seems to so huge that apparently most Australians feel it is a different country and treat is as such.
+
+I have worked in disability for quite a while as a carer. In respite, in a residential house and direct one on one support work. I am in a circle of friends for one guy, which has been quite effective. As a carer you are often only one level up in the power hierarchy of disability organizations, the client being at the bottom, and often feel equally powerless to make a change for the better. I tried though. I felt so sorry so often for the clients since at least I was able to go home after work. Disabled people need advocates very much in my experience, especially because they are sometimes not able to voice their own concerns.
+
+My wife works at Pave the Way, I am involved sometimes in the Mamre community which it is a part of and even have given concerts at times for miscellaneous community events. I strongly believe in Mamre's charter, though I am not a Christian. I believe building community and using a personal approach to social injustice is the way to go, and not necessarily top down intervention and a stacking up of services.
+
+As a family we have heard from first hand about what the experience is for a refugee family to come here after being in a queue for a lot of years. My kids actually struck up a friendship with them a number of years ago, and we got to know them personally after a while. We help them where we can and it is a pleasure to have them in our lives.
+
+Me
+I realize that I might very well not be who you're looking for. For one, I lack in actual work experience. However not in technical skill. If nothing else I hope you keep me in mind and on file, I might be able to help or assist in other ways or capacities. As evident from al of the above, I am looking for a change of career , for your interest see here for my piano teaching website, excuse the site, I made it a long time ago.
+ 
+-- 
