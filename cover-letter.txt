@@ -1,0 +1,46 @@
+Dear <..>
+
+Attached is my CV for your consideration.
+
+- Obviously sparse.., maybe excuse the slightly longer cover letter. Apologize
+ for asking the addressee to take the extra time.
+- Self taught pianist and programmer, autodidact.
+- Science preparatory school, maths, philosophy and history at uni in Amsterdam before
+ settling on piano, finished music degree in Brisbane.
+- Github as only credentials unfortunately. Edge??, roster??, dpi??
+- Built own web server and framework, and a number of modules, 
+- Plans and ideas for multiple apps/utilities 
+- Familiar and/or knowledgeable of most current libs/trends/frameworks/languages
+- Not fond of OOPS, prefer functional approach
+- Most current software in javascript, but also programmed (in the past) in C,
+ Java and even Pascal and Basic.
+- Favorite language: Lisp and any language like it (Clojure, CLisp, Scheme,
+- Picolisp and interested in even more modern incarnations such as Julia)
+- Studying CS curriculum when time allows
+- As far as javascript concerned, interested in web apps, not so much web sites,
+ and any technology that will make web apps easier to make, front and backend.
+- Working knowledge of html and css (and sass and less etc), but not overly fond of it.
+- Would love the opportunity to work with any of the more modern 
+ languages such as Haskell, Julia, D, Rust, Go, Clojure and Scala, but sticking
+ with Javascript for now for reasons of marketability.
+- Dream project: write Lisp operating system..
+- Main interest: computer systems' software reliability, robustness. Ultimately
+ software should be somehow self repairing and self-reliant and with built-in redundancy, and as a whole extremely fault tolerant.  
+- Developed some websites, IT support etc
+- Developed roster, time tracking app.
+
+My own personal website axion5.net lists and summarizes undertaken projects and websites.
+
+Referees:
+
+David Isit
+
+Manager of Pave the Way at Mamre Association Inc. 
+
+Thank you for your time in considering my application.
+
+Yours sincerely,
+
+Michiel van Oosten
+
+ph: 04135 20477

@@ -66,8 +66,11 @@ var resume = {
                     "type": "Other",
                     "items": [
                         "Linux",
+                        "Nodejs",
+                        "Docker",
+                        "Vagrant",
                         "Drupal",
-                        "Nodejs"
+                        "Emacs"
                     ]
                 }
                 
