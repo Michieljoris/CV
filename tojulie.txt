@@ -1,0 +1,125 @@
+Hi darling Julie,
+
+It's bit hard to explain myself with the tension between ourselves at the
+moment, so I thought I'd use email.
+
+I really am on track, and preparing for a programming job, however, it's not
+like applying for a gardening position. It's more like preparing for an exam. I
+need to have my shit together.
+
+I could apply for a junior web developer position, or it support, and I might
+have to, but I would like to work in a proper programming job. So I need to know
+my stuff. 
+
+I am organising my source code, making inventory of what I know and not know,
+practicing in my head how to answer this or that question etc.
+
+I have my resume together, it's just a bit empty, but it is easily produced and
+edited, and comes out professional. 
+
+I have a draft of a cover letter that mentions all the points I need to mention,
+since I think it is going to hinge on the cover letter, not the resume.
+
+It needs to point to work I've actually done.
+
+See below:
+
+    Dear <..>
+
+    Attached is my CV for your consideration.
+
+    - Obviously sparse.., maybe excuse the slightly longer cover letter. Apologize
+     for asking the addressee to take the extra time.
+    - Self taught pianist and programmer, autodidact.
+    - Science preparatory school, maths, philosophy and history at uni in Amsterdam before
+     settling on piano, finished music degree in Brisbane.
+    - Github as only credentials unfortunately. Edge??, roster??, dpi??
+    - Built own web server and framework, and a number of modules, 
+    - Plans and ideas for multiple apps/utilities 
+    - Familiar and/or knowledgeable of most current libs/trends/frameworks/languages
+    - Not fond of OOPS, prefer functional approach
+    - Most current software in javascript, but also programmed (in the past) in C,
+     Java and even Pascal and Basic.
+    - Favorite language: Lisp and any language like it (Clojure, CLisp, Scheme,
+    - Picolisp and interested in even more modern incarnations such as Julia)
+    - Studying CS curriculum when time allows
+    - As far as javascript concerned, interested in web apps, not so much web sites,
+     and any technology that will make web apps easier to make, front and backend.
+    - Working knowledge of html and css (and sass and less etc), but not overly fond of it.
+    - Would love the opportunity to work with any of the more modern 
+     languages such as Haskell, Julia, D, Rust, Go, Clojure and Scala, but sticking
+     with Javascript for now for reasons of marketability.
+    - Dream project: write Lisp operating system..
+    - Main interest: computer systems' software reliability, robustness. Ultimately
+     software should be somehow self repairing and self-reliant and with built-in redundancy, and as a whole extremely fault tolerant.  
+    - Developed some websites, IT support etc
+    - Developed roster, time tracking app.
+
+    My own personal website axion5.net lists and summarizes undertaken projects and websites.
+
+    Referees:
+
+    David Isit
+
+    Manager of Pave the Way at Mamre Association Inc. 
+
+    Thank you for your time in considering my application.
+
+    Yours sincerely,
+
+    Michiel van Oosten
+
+    ph: 04135 20477
+
+
+I think the best would be startups, and I'm trying to get a feel of the scene,
+here and in Amsterdam/Europe.
+
+I also want/need to develop ideas of my own that could lead to a startup
+(business). First reason is that that would be ideal, making money by being at
+home and selling software services over the net, but secondly, and more
+importantly, it gives me something to talk about, and enthusiastic about in
+interviews and contact with other developers. And you never know, somebody might
+come on board, or is willing to let me develop some of the ideas.
+
+Some of the ideas of these startups are so stupid and simple, and yet they get
+funding and make money. They say the value of a startup is not so much the idea,
+but the actually making it happen. And some of these startups are making these
+really silly ideas happen, such as pulling data from linkedin and presenting it
+in a graph (http://vizualize.me/). 
+
+I think any source code I write is going to help. I did the Thoughtworks code
+challenges, there are some sample logic tests I have and can do, and I've been
+working through sample interview questions found on the net.
+
+I still a bit shitty about not having done the Edge app. I dropped it because of
+the negative vibe around it I think. But I actually have clear ideas about how
+to put it together. I just started to think about the backend/server side of it,
+since they were talking about selling the app as a service (like dropbox or
+trello). So I got big ideas of how to implement that, and I wrote some test
+cases and demo apps to see if it was possible. And I think it is. And ever from
+then on, I notice all these other efforts in the same direction as I was
+thinking of, but not quite the same. 
+
+So even if it is too late for Damien perhaps, I can still develop and sell Edge. With
+the infrastructure in place I can also distribute and manage a roster app, a
+personalinfo app, an invoice app (linked to trello), etc.
+
+But to develop these ideas, and implement them, takes time. Which I've taken a
+bit the last few weeks because it's still worth it in regards to interviews
+etc. At least I made a start of it, with the developing of these ideas, this
+puts me in a better position, also mentally myself.
+
+Also going from my laptop to the machine at Editshare and my own desktop made me
+lose a lot of time setting up things etc, so I've decided to just stick with one
+machine, a laptop, for all development work and put anything essential on the
+net, and have a strategy in place to rebuild a laptop's setup if necessary.
+
+Most proper work is done thinking anyway, a bigger screen doesn't make that
+easier, and I only have to maintain one computer this way, and I'm locked up in
+a cave etc.
+
+
+
+
+
