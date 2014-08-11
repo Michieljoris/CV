@@ -22,3 +22,5 @@ https://github.com/Michieljoris/json_resume
 node resume.js 
 
 
+* livehire
+  http://www.livehire.me/Transparency/Faq
