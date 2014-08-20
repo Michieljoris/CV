@@ -15,7 +15,7 @@ Nodejs - Javascript - Lisp
 * **Web Frameworks**: `AngularJS` `Bootstrap` `Meteor` `Reactjs` 
 * **Databases**: `CouchDB` `MySQL` `MongoDB` 
 * **Languages**: `English` `Dutch` `German (limited)` `French (limited)` 
-* **Other**: `Linux` `Drupal` `Nodejs` 
+* **Other**: `Linux` `Nodejs` `Docker` `Vagrant` `Drupal` `Emacs` 
 
 ###Education
 Degree | Major | Institution | Graduation Year
