@@ -1,0 +1,5 @@
+\renewcommand\maketitle
+{\begin{titlepage}%
+FOO
+\end{titlepage}%
+}

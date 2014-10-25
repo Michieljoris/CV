@@ -1,0 +1,61 @@
+% Created 2014-10-23 do 22:56
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{fontspec}
+\usepackage{graphicx} 
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont{Gentium}
+\setromanfont [BoldFont={Gentium Basic Bold},
+                ItalicFont={Gentium Basic Italic}]{Gentium Basic}
+\setsansfont{Charis SIL}
+\setmonofont[Scale=0.8]{DejaVu Sans Mono}
+\usepackage{geometry}
+\geometry{a4paper, textwidth=6.5in, textheight=10in,
+            marginparsep=7pt, marginparwidth=.6in}
+\pagestyle{empty}
+\title{}
+      
+\providecommand{\alert}[1]{\textbf{#1}}
+
+\title{My title}
+\author{Michiel van Oosten}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+
+Blabla
+\section*{Introduction}
+\label{sec-1}
+
+  
+  This is my document. There are many like it, but this is mine. It's easy to
+  write without \textbf{too} \underline{many} \emph{distractions}.
+  
+\subsection*{Normal distribution}
+\label{sec-1-1}
+
+
+   Probability density of the normal distribution, using familiar \TeX{} notation
+   for formulae:
+ 
+   $$\frac{1}{\sqrt{2\pi\sigma^2}}e^{ -\frac{(x-\mu)^2}{2\sigma^2} }$$
+\subsection*{Some table}
+\label{sec-1-2}
+
+
+
+\begin{center}
+\begin{tabular}{lll}
+ \textbf{Greek God}  &  \textbf{Roman God}  &  \textbf{Element}  \\
+\hline
+ Zeus                &  Jupiter             &  Sky and clouds    \\
+ Hera                &  Juno                &  Family            \\
+ Poseidon            &  Neptune             &  Sea               \\
+ Hades               &  Pluto               &  Underworld        \\
+\end{tabular}
+\end{center}
+
+\end{document}

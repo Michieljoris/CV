@@ -1,0 +1,141 @@
+{
+  "settings": {
+    "glyphicons": true
+  },
+  "firstname": "Michiel",
+  "familyname": "van Oosten",
+  "linkedin_id": "michieljoris",
+  "github_id": "michieljoris",
+  "bio_data": {
+    "email": "mail@axion5.net",
+    "phone": "+61 (7) 3274 2752",
+    "website": "http://www.axion5.net",
+    "stars": [
+      "Nodejs",
+      "Javascript",
+      "Lisp"
+    ],
+    "summary": {
+      "points": [
+        "Self-taught, autonomous learner"
+      ]
+    },
+    "github_projects": {
+      "details": [
+        {
+          "project_name": "michieljoris/bb-server",
+          "tagline": "Not so bare bones server",
+          "description": [
+            "Description",
+            ""
+          ]
+        }
+      ]
+    },
+    "skills": {
+      "details": [
+        {
+          "type": "Programming Languages",
+          "items": [
+            "Javascript",
+            "Common Lisp",
+            "Java",
+            "C",
+            "HTML",
+            "CSS"
+          ]
+        },
+        {
+          "type": "Web Frameworks",
+          "items": [
+            "AngularJS",
+            "Bootstrap",
+            "Meteor",
+            "Reactjs"
+          ]
+        },
+        {
+          "type": "Databases",
+          "items": [
+            "CouchDB",
+            "MySQL",
+            "MongoDB"
+          ]
+        },
+        {
+          "type": "Languages",
+          "items": [
+            "English",
+            "Dutch",
+            "German (limited)",
+            "French (limited)"
+          ]
+        },
+        {
+          "type": "Other",
+          "items": [
+            "Linux",
+            "Nodejs",
+            "Docker",
+            "Vagrant",
+            "Drupal",
+            "Emacs",
+            "Vim"
+          ]
+        }
+      ]
+    },
+    "education": {
+      "show_gpa": true,
+      "schools": [
+        {
+          "degree": "VWO (Preparatory Scientific Education)",
+          "institution": "Pax Christi College Druten",
+          "major": "Beta (sciences)",
+          "graduation_year": 1988,
+          "Details": "Some details"
+        },
+        {
+          "degree": "Diploma of Music",
+          "major": "Piano",
+          "institution": "Griffith University Brisbane, Qld",
+          "graduation_year": 1998
+        }
+      ]
+    },
+    "experience": {
+      "items": [
+        {
+          "title": "Classical pianist and teacher",
+          "location": "Brisbane, Qld Australia",
+          "from": "2000",
+          "to": "Jan. 2013",
+          "details": [
+            "Some details"
+          ]
+        },
+        {
+          "title": "IT Consultant",
+          "organisation": "Mamre",
+          "location": "Brisbane, Qld",
+          "from": "Dec. 2013",
+          "to": "Jul. 2014",
+          "details": [
+            ""
+          ]
+        }
+      ]
+    },
+    "other_projects": {
+      "items": [
+        {
+          "headline": "Designed roster and time tracking software for organisation",
+          "points": [
+            "In use at organisation"
+          ]
+        }
+      ]
+    }
+  },
+  "version": 32
+}

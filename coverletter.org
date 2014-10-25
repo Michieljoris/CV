@@ -1,0 +1,58 @@
+Dear reader,
+
+I would like to ask for you to consider this cover letter somewhat more
+carefully than you would normally. As you can see on the attached CV I have not
+so many programming credentials to my name as you would normally see. Why it
+might still be interesting for us to got get in contact is because of the
+following:
+
+- Despite not having a formal CS education I might still have enough coding
+  chops to be of help to you. I am a self-taught programmer as I am a
+  self-taught pianist. I finished a conservatorium degree without previous piano
+  lessons, this still amazes me really. I have been at least as thorough, and
+  still am, in educating myself in programming. I have been programming on and
+  off since I was 13 years old. Piano and music was just an enormous challenge
+  when I was 19 and diverted me in some sense from the direction I always was
+  going to go anyway. See following point:
+- I went to VWO (Science preparatory school), then started a maths degree in
+  Leiden (then philosophy, picked up piano, then history, and finally piano).
+- I have a thorough knowledge of javascript, having written it for a couple of
+  years now. See my [[http://github.com/michieljoris][github]] account.
+- Since learning of lisp it's my favorite language, however web apps are written
+  in javascript. Maybe not anymore now. I'm switching to ClojureScript.
+- To prove to myself I can write javascript I wrote my own server, build and
+  module system. It does for me what most people use Express, Grunt and
+  Browserify for.
+- I'm familiar with and/or knowledgeable of most current
+  libs/trends/frameworks/languages.
+- Not fond of OOPS, prefer functional approach, I write javascript in a
+  functional as much I can, avoiding /this/ wherever I can..
+- Plans and ideas for multiple apps/utilities.
+- Studying CS curriculum when time allows
+- Interested in web apps, not so much web sites, and any technology that will
+  make web apps easier to make, front and backend.
+- Working knowledge of html and css (and sass and less etc), but not overly fond of it.
+- Would love the opportunity to work with any of the more modern languages such
+  as Haskell, Julia, D, Rust, Go, Clojure and Scala, but sticking with
+  Javascript for now for reasons of marketability.
+- Dream project: write Lisp operating system.. 
+- Main interest: computer systems' software reliability, robustness. Ultimately
+  software should be somehow self repairing, self-reliant and with built-in
+  redundancy, and as a whole extremely fault tolerant.
+- I even keep a [[http://www.axion5.net][blog]]!!
+  
+I believe the future is in the web as far as apps are concerned. I'm looking for
+similar minded people interested in building these using the best languages, the
+smartest libraries and cleverest implementations resulting in fast deployment
+and quick iteration. I am interested in learning and applying anything to
+further that goal. See also my [[http://github.com/michieljoris/cape][cape]] project.
+
+Interests beyond web applications are distributed programming, operating
+systems, compilers but foremost robustness, reliability and ease of use of
+computer systems. A computer shouldn't fail but it does so often.
+
+Some more background info is on [[http://careers.stackoverflow.com/michieljoris][careers.stackoverflow]].
+
+Kind regards,
+
+Michiel van Oosten
