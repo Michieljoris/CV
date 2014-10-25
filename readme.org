@@ -13,7 +13,7 @@ The cover-letter.tex modifies adds a /justify and modifies:
 Then run =make-cv.sh=.
 
 ** TODO: 
-- The personal info is duplicated from resume.tex to cover-letter.tex. Should make
-it one tex file or assemble a tex file from fragments script wise. Also
-cover-letter should be converted properly from org file and inserted.
+- The personal info is duplicated from resume.tex to cover-letter.tex. Should
+  make it one tex file or assemble a tex file from fragments script wise. Also
+  cover-letter should be converted properly from org file and inserted.
 - Insert company name automatically from script
