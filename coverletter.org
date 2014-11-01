@@ -1,5 +1,42 @@
 Dear reader,
 
+
+
+I believe the future is in the web as far as apps are concerned. I think I have
+a clear idea of the direction of future web app development. I think I will be
+able to contribute to a team of developers to develop quicker and better web
+apps. 
+
+My dream and I think it's possible for apps to self deploy ( as a teaser) also
+with cckape as a teaser. . I'm looking for
+
+similar minded people interested in building these using the best languages, the
+smartest libraries and cleverest implementations resulting in fast deployment
+and quick iteration. I am interested in learning and applying anything to
+further that goal. See also my [[http://github.com/michieljoris/cape][cape]] project.
+
+Small companies need creativity. 
+
+Think consciously about strengths and weakkness.
+
+Technologies?
+
+Tak van sport (web apps). Mijn droom is self depl. and cape, > benefits to
+business.
+
+Then wie ben ik and vaardigheden. Breng het positief, not self-deprecating. 
+Thorough with piano, thorough with next projects. 
+
+Then skilss and knowledge.
+
+I can explain things, I am a teacher.  Mary market  
+
+ABC
+
+Rollen in een team die ik kan, en bijdrages die ik kan leveren vanuut mijn
+positie> explainer, mentor, learn things quick, adapting quick, idea man,
+initiator of new designs and ideas. Ja maar.  
+
 I would like to ask for you to consider this cover letter somewhat more
 carefully than you would normally. As you can see on the attached CV I have not
 so many programming credentials to my name as you would normally see. Why it
@@ -12,7 +49,7 @@ following:
   lessons, this still amazes me really. I have been at least as thorough, and
   still am, in educating myself in programming. I have been programming on and
   off since I was 13 years old. Piano and music was just an enormous challenge
-  when I was 19 and diverted me in some sense from the direction I always was
+  when I was 19 a diverted me in some sense from the direction I always was
   going to go anyway. See following point:
 - I went to VWO (Science preparatory school), then started a maths degree in
   Leiden (then philosophy, picked up piano, then history, and finally piano).
@@ -41,12 +78,6 @@ following:
   redundancy, and as a whole extremely fault tolerant.
 - I even keep a [[http://www.axion5.net][blog]]!!
   
-I believe the future is in the web as far as apps are concerned. I'm looking for
-similar minded people interested in building these using the best languages, the
-smartest libraries and cleverest implementations resulting in fast deployment
-and quick iteration. I am interested in learning and applying anything to
-further that goal. See also my [[http://github.com/michieljoris/cape][cape]] project.
-
 Interests beyond web applications are distributed programming, operating
 systems, compilers but foremost robustness, reliability and ease of use of
 computer systems. A computer shouldn't fail but it does so often.
