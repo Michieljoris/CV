@@ -1,4 +1,8 @@
-cat > 
+sed '1,28d' cover-letter-body.tex | sed '$d' > content.tex
+
+cat cover-letter-top.tex content.tex cover-letter-bottom.tex > cover-letter.tex
+
+rm content.tex
 
 echo "Copying resume.tex and cover-letter.tex to ./moderncv.."
 cp resume.tex cover-letter.tex ./moderncv

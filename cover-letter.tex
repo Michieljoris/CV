@@ -1,25 +1,93 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{grey}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+
+% personal data
+\name{Michiel}{van Oosten}
+%% \title{Programmer}                               % optional, remove / comment the line if not wanted
+\address{Olympia plein 88}{1076AH Amsterdam}{The Netherlands}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+31~06~2160~4498}                   % optional, remove / comment the line if not wanted
+\phone[fixed]{+31~(020)~6659~715}                    % optional, remove / comment the line if not wanted
+%% \phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{mail@axion5.net}                               % optional, remove / comment the line if not wanted
+\homepage{www.axion5.net}                         % optional, remove / comment % the line if not wanted
+\social[github][]{michieljoris}
+\social[linkedin][]{michieljoris}
+ 
+%% \extrainfo{\url {github.com/michieljoris}}                 % optional, remove / comment the line if not wanted
+\photo[64pt][0.4pt]{michiel.jpg}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\quote{Self taught programmer. Analytical and thorough. Forever inquisitive.}                                 % optional, remove / comment the line if not wanted
+\usepackage{ragged2e}
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+\pagestyle{fancy}
+\rfoot{\thepage/4}
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\setcounter{page}{1}
+ 
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
+\date{\today}
+\opening{Dear Sir or Madam,}
+\closing{Yours faithfully,}
+\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+\justify
 I am a Dutchman who has lived in Australia for the past 20 years. I have a family and two young teenager daughters there. I've taught piano for the last 12 years. I've programmed since I was 13. I've come to Holland to find work as a programmer and bring the family over. 
 
 I am self-taught in both programming and piano. I finished a conservatorium education in my twenties in Australia after starting to play at 19. Programming has been an (almost clandestine) undercurrent throughout my whole life, and after having explored music for some time now I am now elevating that undercurrent to my life's next occupation. 
 
-I believe the future is in the web as far as apps are concerned. They should be self-deploying, and backendless. I've written some proof of concepts and secondary modules to progress these ideas, most in JavaScript, however now transitioning to ClojureScript. With tools and libs such as Docker, CouchDB, Haproxy, Consul/Serf/CoreOS, NodeJS, Cloud API's  etc, a programmer can adopt and usurp previously separate concerns such as deployment and feature/product development, testing and iteration. Programming Motherfucker!!!
+I believe the future is in the web as far as apps are concerned. They should be self-deploying, and backendless. I've written some proof of concepts and secondary modules to progress these ideas, most in JavaScript, however now transitioning to ClojureScript. With tools and libs such as Docker, CouchDB, Haproxy, Consul/Serf/CoreOS, NodeJS, Cloud API's  etc, a programmer can adopt and usurp previously separate concerns such as deployment and feature/product development, testing and iteration. 
 
 I am interested in talking to similar minded people interested in building web apps using the best languages, the smartest libraries and cleverest implementations resulting in the fastest deployment and quickest iteration. I am interested in learning and applying anything to further that goal. 
 
 I hope to bring thoroughness, ideas and architectural (and artistic) insight to a team and projects. I enjoy designing and thinking about long term design and implementation of these designs. I am working on improving my skills as practical programmer every day since I have to live with my own creations, and keep building on them. My mantras are defry, describe and delimit:
+\vspace{3mm} %3mm vertical space  
+\renewcommand{\labelitemi}{\textbullet}
 
-\textbf{defry}: don't ever f\$\%*\#^g repeat your self!
-   if yes -> refactor!! 
-\textbf{describe} what you're doing!
-   Clear logical flow, descriptive naming, choice comments, few or no corner case
-   handling or out of place logic, explicitly type or make clear what variables
-   are supposed to contain, use name params instead of list etc
-\textbf{delimit}: break up in modules, pure/independant functions, not bigger than my head per
-function, clear global structure/architecture
+\begin{itemize}
+\item \textbf{defry}: don't ever \verb~f$%*#^g~ repeat your self!
+   if yes -> refactor!!
+\item \textbf{describe} what you're doing!
+   Clear logical flow, descriptive naming, choice comments, few or no corner case handling or out of place logic, explicitly type or make clear what variables are supposed to contain, use name params instead of list etc
+\item \textbf{delimit}: break up in modules, pure/independant functions, not bigger than my head per function, clear global structure/architecture
+\end{itemize}
 
-Also: libraries over frameworks, beauty over speed, minimum code over added features, 12factor apps.
+Also: libraries over frameworks, beauty over speed, minimum code over added features, 12factor apps, react over angular.
 
-When I understand something I am capable of explaining it to almost anybody (born teacher..). When I don't understand something I can get very baffled, frustrated and feel very stupid very quickly. Then I study till I understand it or decide it's nonsense. In a team I'm the `yes but' person.
+I can explain what I understand (born teacher..). When I don't understand something I can get very baffled, frustrated and feel very stupid very quickly. Then I study till I understand it or decide it's nonsense. In a team I'm the `yes but' person. 
 
 My coding environment: Laptop running Linux (Ubuntu), i3wm, Emacs and Chrome/Firefox, my own tools. All my code is on \href{http://github.com/michieljoris}{github}.
 
@@ -41,9 +109,12 @@ Some more background info:
 \item I even keep a \href{http://www.axion5.net}{blog}!!
 \end{itemize}
   
-Some more background info is on \href{http://careers.stackoverflow.com/michieljoris}{careers.stackoverflow}.
+Some more background info is on \href{http://careers.stackoverflow.com/michieljoris}{careers.stackoverflow} and \href{http://nl.linkedin.com/in/michieljoris/}{linkedin}.
 
-Kind regards,
 
-Michiel van Oosten
+\makeletterclosing
 
+\end{document}
+
+
+%% end of file `template.tex'.

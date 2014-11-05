@@ -2,18 +2,18 @@
 
 Edit resume.tex and cover-letter.tex
 
-Or edit cover-letter.org, but do C-c C-e L and edit the resulting tex. Then
-insert the relevant tex code into cover-letter.tex.
+Or edit cover-letter.org, but do C-c C-e L and edit the resulting tex. Make
+sure thare is a first line, no matter what, then save as cover-letter-body.tex
 
-The cover-letter.tex modifies adds a /justify and modifies:
+Insert this for bullet instead of circles for listpoints:
+: #+LATEX: \renewcommand{\labelitemi}{\textbullet}
 
-: \renewcommand{\labelitemi}{\textbullet}
+For different list spacing replace =\being{...= with the following in the latex file:
 : \begin{itemize} \itemsep1pt \parskip5pt \parsep0pt
 
 Then run =make-cv.sh=.
 
 ** TODO: 
 - The personal info is duplicated from resume.tex to cover-letter.tex. Should
-  make it one tex file or assemble a tex file from fragments script wise. Also
-  cover-letter should be converted properly from org file and inserted.
+  make it one tex file or assemble a tex file from fragments script wise. 
 - Insert company name automatically from script

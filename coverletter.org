@@ -4,24 +4,24 @@ I am a Dutchman who has lived in Australia for the past 20 years. I have a famil
 
 I am self-taught in both programming and piano. I finished a conservatorium education in my twenties in Australia after starting to play at 19. Programming has been an (almost clandestine) undercurrent throughout my whole life, and after having explored music for some time now I am now elevating that undercurrent to my life's next occupation. 
 
-I believe the future is in the web as far as apps are concerned. They should be self-deploying, and backendless. I've written some proof of concepts and secondary modules to progress these ideas, most in JavaScript, however now transitioning to ClojureScript. With tools and libs such as Docker, CouchDB, Haproxy, Consul/Serf/CoreOS, NodeJS, Cloud API's  etc, a programmer can adopt and usurp previously separate concerns such as deployment and feature/product development, testing and iteration. Programming Motherfucker!!!
+I believe the future is in the web as far as apps are concerned. They should be self-deploying, and backendless. I've written some proof of concepts and secondary modules to progress these ideas, most in JavaScript, however now transitioning to ClojureScript. With tools and libs such as Docker, CouchDB, Haproxy, Consul/Serf/CoreOS, NodeJS, Cloud API's  etc, a programmer can adopt and usurp previously separate concerns such as deployment and feature/product development, testing and iteration. 
+# Programming Motherfucker!!!
 
 I am interested in talking to similar minded people interested in building web apps using the best languages, the smartest libraries and cleverest implementations resulting in the fastest deployment and quickest iteration. I am interested in learning and applying anything to further that goal. 
 
 I hope to bring thoroughness, ideas and architectural (and artistic) insight to a team and projects. I enjoy designing and thinking about long term design and implementation of these designs. I am working on improving my skills as practical programmer every day since I have to live with my own creations, and keep building on them. My mantras are defry, describe and delimit:
+#+LATEX: \vspace{3mm} %3mm vertical space  
+#+LATEX: \renewcommand{\labelitemi}{\textbullet}
 
-*defry*: don't ever f$%*#^g repeat your self!
+- *defry*: don't ever ~f$%*#^g~ repeat your self!
    if yes -> refactor!! 
-*describe* what you're doing!
-   Clear logical flow, descriptive naming, choice comments, few or no corner case
-   handling or out of place logic, explicitly type or make clear what variables
-   are supposed to contain, use name params instead of list etc
-*delimit*: break up in modules, pure/independant functions, not bigger than my head per
-function, clear global structure/architecture
+- *describe* what you're doing!
+   Clear logical flow, descriptive naming, choice comments, few or no corner case handling or out of place logic, explicitly type or make clear what variables are supposed to contain, use name params instead of list etc
+- *delimit*: break up in modules, pure/independant functions, not bigger than my head per function, clear global structure/architecture
 
-Also: libraries over frameworks, beauty over speed, minimum code over added features, 12factor apps.
+Also: libraries over frameworks, beauty over speed, minimum code over added features, 12factor apps, react over angular.
 
-When I understand something I am capable of explaining it to almost anybody (born teacher..). When I don't understand something I can get very baffled, frustrated and feel very stupid very quickly. Then I study till I understand it or decide it's nonsense. In a team I'm the 'yes but' person.
+I can explain what I understand (born teacher..). When I don't understand something I can get very baffled, frustrated and feel very stupid very quickly. Then I study till I understand it or decide it's nonsense. In a team I'm the 'yes but' person. 
 
 My coding environment: Laptop running Linux (Ubuntu), i3wm, Emacs and Chrome/Firefox, my own tools. All my code is on [[http://github.com/michieljoris][github]].
 
@@ -41,9 +41,5 @@ Some more background info:
   redundancy, and as a whole extremely fault tolerant.
 - I even keep a [[http://www.axion5.net][blog]]!!
   
-Some more background info is on [[http://careers.stackoverflow.com/michieljoris][careers.stackoverflow]].
-
-Kind regards,
-
-Michiel van Oosten
+Some more background info is on [[http://careers.stackoverflow.com/michieljoris][careers.stackoverflow]] and [[http://nl.linkedin.com/in/michieljoris/][linkedin]].
 
