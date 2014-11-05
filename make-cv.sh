@@ -1,3 +1,5 @@
+cat > 
+
 echo "Copying resume.tex and cover-letter.tex to ./moderncv.."
 cp resume.tex cover-letter.tex ./moderncv
 echo "Creating resume.pdf and cover-letter.pdf and merging them.."

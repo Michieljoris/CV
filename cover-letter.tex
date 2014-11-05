@@ -1,122 +1,49 @@
-%% start of file `template.tex'.
-%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
-%
-% This work may be distributed and/or modified under the
-% conditions of the LaTeX Project Public License version 1.3c,
-% available at http://www.latex-project.org/lppl/.
+I am a Dutchman who has lived in Australia for the past 20 years. I have a family and two young teenager daughters there. I've taught piano for the last 12 years. I've programmed since I was 13. I've come to Holland to find work as a programmer and bring the family over. 
 
+I am self-taught in both programming and piano. I finished a conservatorium education in my twenties in Australia after starting to play at 19. Programming has been an (almost clandestine) undercurrent throughout my whole life, and after having explored music for some time now I am now elevating that undercurrent to my life's next occupation. 
 
-\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+I believe the future is in the web as far as apps are concerned. They should be self-deploying, and backendless. I've written some proof of concepts and secondary modules to progress these ideas, most in JavaScript, however now transitioning to ClojureScript. With tools and libs such as Docker, CouchDB, Haproxy, Consul/Serf/CoreOS, NodeJS, Cloud API's  etc, a programmer can adopt and usurp previously separate concerns such as deployment and feature/product development, testing and iteration. Programming Motherfucker!!!
 
-% moderncv themes
-\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{grey}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
-%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
-%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+I am interested in talking to similar minded people interested in building web apps using the best languages, the smartest libraries and cleverest implementations resulting in the fastest deployment and quickest iteration. I am interested in learning and applying anything to further that goal. 
 
-% character encoding
-\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
-%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+I hope to bring thoroughness, ideas and architectural (and artistic) insight to a team and projects. I enjoy designing and thinking about long term design and implementation of these designs. I am working on improving my skills as practical programmer every day since I have to live with my own creations, and keep building on them. My mantras are defry, describe and delimit:
 
-% adjust the page margins
-\usepackage[scale=0.75]{geometry}
-%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
-%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+\textbf{defry}: don't ever f\$\%*\#^g repeat your self!
+   if yes -> refactor!! 
+\textbf{describe} what you're doing!
+   Clear logical flow, descriptive naming, choice comments, few or no corner case
+   handling or out of place logic, explicitly type or make clear what variables
+   are supposed to contain, use name params instead of list etc
+\textbf{delimit}: break up in modules, pure/independant functions, not bigger than my head per
+function, clear global structure/architecture
 
+Also: libraries over frameworks, beauty over speed, minimum code over added features, 12factor apps.
 
-% personal data
-\name{Michiel}{van Oosten}
-%% \title{Programmer}                               % optional, remove / comment the line if not wanted
-\address{Olympia plein 88}{1076AH Amsterdam}{The Netherlands}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
-\phone[mobile]{+31~06~2160~4498}                   % optional, remove / comment the line if not wanted
-\phone[fixed]{+31~(020)~6659~715}                    % optional, remove / comment the line if not wanted
-%% \phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
-\email{mail@axion5.net}                               % optional, remove / comment the line if not wanted
-\homepage{www.axion5.net}                         % optional, remove / comment % the line if not wanted
-\social[github][]{michieljoris}
-\social[linkedin][]{michieljoris}
- 
-%% \extrainfo{\url {github.com/michieljoris}}                 % optional, remove / comment the line if not wanted
-\photo[64pt][0.4pt]{michiel.jpg}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
-\quote{Self taught programmer. Analytical and thorough. Forever inquisitive.}                                 % optional, remove / comment the line if not wanted
-\usepackage{ragged2e}
-% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
-%\makeatletter
-%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
-%\makeatother
-%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
-\pagestyle{fancy}
-\rfoot{\thepage/4}
-% bibliography with mutiple entries
-%\usepackage{multibib}
-%\newcites{book,misc}{{Books},{Others}}
-%----------------------------------------------------------------------------------
-%            content
-%----------------------------------------------------------------------------------
-\begin{document}
-\setcounter{page}{1}
- 
-%-----       letter       ---------------------------------------------------------
-% recipient data
-\recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
-\date{\today}
-\opening{Dear Sir or Madam,}
-\closing{Yours faithfully,}
-\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
-\makelettertitle
-\justify
-I would like to ask for you to consider this cover letter somewhat more
-carefully than you would normally. As you can see on the attached CV I have not
-so many programming credentials to my name as you would normally see. Why it
-might still be interesting for us to got get in contact is because of the
-following:
-\renewcommand{\labelitemi}{\textbullet}
-\begin{itemize} \itemsep1pt \parskip5pt \parsep0pt
-\item Despite not having a formal CS education I might still have enough coding
-  chops to be of help to you. I am a self-taught programmer as I am a
-  self-taught pianist. I finished a conservatorium degree without previous piano
-  lessons, this still amazes me really. I have been at least as thorough, and
-  still am, in educating myself in programming. I have been programming on and
-  off since I was 13 years old. Piano and music was just an enormous challenge
-  when I was 19 and diverted me in some sense from the direction I always was
-  going to go anyway. See following point:
-\item I went to VWO (Science preparatory school), then started a maths degree in
-  Leiden (then philosophy, picked up piano, then history, and finally piano).
-\item I have a thorough knowledge of javascript, having written it for a couple of
-  years now. See my \href{http://github.com/michieljoris}{github} account.
-\item Since learning of lisp it's my favorite language, however web apps are written
-  in javascript. Maybe not anymore now. I'm switching to ClojureScript.
-\item To prove to myself I can write javascript I wrote my own server, build and
-  module system. It does for me what most people use Express, Grunt and
-  Browserify for.
-\item I'm familiar with and/or knowledgeable of most current
-  libs/trends/frameworks/languages.
-\item Not fond of OOPS, prefer functional approach, I write javascript in a
-  functional style as much I can, avoiding \emph{this} wherever I can..
-\item Plans and ideas for multiple apps/utilities.
-\item Studying CS curriculum when time allows
-\item Interested in web apps, not so much web sites, and any technology that will
-  make web apps easier to make, front and backend.
+When I understand something I am capable of explaining it to almost anybody (born teacher..). When I don't understand something I can get very baffled, frustrated and feel very stupid very quickly. Then I study till I understand it or decide it's nonsense. In a team I'm the `yes but' person.
+
+My coding environment: Laptop running Linux (Ubuntu), i3wm, Emacs and Chrome/Firefox, my own tools. All my code is on \href{http://github.com/michieljoris}{github}.
+
+Some more background info:
+
+\begin{itemize}
+\item I went to VWO (Science preparatory school), courses in maths, history and philosophy at Universities of Leiden and Amsterdam. Degree in piano at Brisbane Griffith Conservatorium.
+\item Favorite language is lisp after working through TEOCS in Common Lisp.
+\item Wrote my own server, build and module system. It does for me what most people use Express, Grunt/Gulp/Brunch and Browserify for.
+\item Java and C++ put me thoroughly off OOP. Functional approach is better.
+\item Studying CS curriculum when time allows (SICP will be finished one day..)
 \item Working knowledge of html and css (and sass and less etc), but not overly fond of it.
-\item Would love the opportunity to work with any of the more modern languages such
-  as Haskell, Julia, D, Rust, Go, Clojure and Scala, but sticking with
-  Javascript for now for reasons of marketability.
-\item Dream project: write Lisp operating system.
-\item Main interest: computer systems' software reliability, robustness. Ultimately
+\item Would love to write in and learn more about Haskell and Erlang, but also D, Rust and Julia.
+\item Dream project: write Lisp operating system..
+\item Wasting too much time on hackernews.
+\item Major long term interest: computer systems' software reliability, robustness. Ultimately
   software should be somehow self repairing, self-reliant and with built-in
   redundancy, and as a whole extremely fault tolerant.
 \item I even keep a \href{http://www.axion5.net}{blog}!!
 \end{itemize}
   
-I believe the future is in the web as far as apps are concerned. I'm looking for similar minded people interested in building these using the best languages, the smartest libraries and cleverest implementations resulting in fast deployment and quick iteration. I am interested in learning and applying anything to further that goal. See also my \href{http://github.com/michieljoris/cape}{cape} project. 
-
-Interests beyond web applications are distributed programming, operating systems, compilers but foremost robustness, reliability and ease of use of computer systems. A computer shouldn't fail but it does so often.
-
 Some more background info is on \href{http://careers.stackoverflow.com/michieljoris}{careers.stackoverflow}.
 
-\makeletterclosing
+Kind regards,
 
-\end{document}
+Michiel van Oosten
 
-
-%% end of file `template.tex'.
