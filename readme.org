@@ -1,4 +1,12 @@
 #+TITLE: CV
+Install latex:
+
+: sudo apt-get install texlive-latex-base texlive-latex-extra
+: sudo apt-get install texlive-fonts-recommended
+
+Install pdf reader:
+
+: sudo apt-get install okular
 
 Edit resume.tex and cover-letter.tex
 
