@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+export PHONE="+61~1234 123 123"
+export STREET="1 Somestreet"
+export CITY="SomeCity SomeState SomePostcode"
+export COUNTRY="SomeCountry"

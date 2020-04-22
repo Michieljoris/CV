@@ -1,9 +1,17 @@
-sed '1,28d' cover-letter-body.tex | sed '$d' > content.tex
+sed '1,32d' cover-letter-body.tex | sed '$d' > content.tex
 
-cat cover-letter-top1.tex personal-data.tex cover-letter-top2.tex \
+source personal-info
+mkdir -p tmp
+cp personal-data.tex tmp/personal-data.tex
+sed -i "s/PHONE/$PHONE/g" tmp/personal-data.tex
+sed -i "s/STREET/$STREET/g" tmp/personal-data.tex
+sed -i "s/CITY/$CITY/g" tmp/personal-data.tex
+sed -i "s/COUNTRY/$COUNTRY/g" tmp/personal-data.tex
+
+cat cover-letter-top1.tex tmp/personal-data.tex cover-letter-top2.tex \
 content.tex cover-letter-bottom.tex > cover-letter.tex
 
-cat resume1.tex personal-data.tex resume2.tex > resume.tex
+cat resume1.tex tmp/personal-data.tex resume2.tex > resume.tex
 
 rm content.tex
 

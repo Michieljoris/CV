@@ -8,7 +8,7 @@ var resume = {
     "github_id": "michieljoris",
     "bio_data": {
         "email": "mail@axion5.net",
-        "phone": "+61 (7) 3274 2752",
+        "phone": "+61 0480 200 584 ",
         "website": "http://www.axion5.net",
         "stars": ["Nodejs", "Javascript","Lisp"],
 	"summary": {
@@ -247,12 +247,12 @@ if (!resume.version) {
     resume.version = v;
 }
 
-var sys = require('sys');
+var sys = require('util');
 var exec = require('child_process').exec;
 function puts(error, stdout, stderr) { sys.puts(stdout) }
 
 console.log("Writing the package.json file out from package.js...");
-fs.writeJSONFile("resume.json", resume, function(err){
+fs.writeJSON("resume.json", resume, function(err){
     if (err) {
         console.log("Error writing resume.json");
         console.log(err);

@@ -8,10 +8,12 @@ Install pdf reader:
 
 : sudo apt-get install okular
 
-Edit resume.tex and cover-letter.tex
+Edit cover-letter.tex directly or edit cover-letter.org, but do C-c C-e L in
+emacs and edit the resulting tex. Make sure thare is a first line, no matter
+what, then save as cover-letter-body.tex.
 
-Or edit cover-letter.org, but do C-c C-e L and edit the resulting tex. Make
-sure thare is a first line, no matter what, then save as cover-letter-body.tex
+Edit resume2.tex. This is extracted from moderncv/examples/template.tex and in
+there you can see what and how this file can be put together.
 
 Insert this for bullet instead of circles for listpoints:
 : #+LATEX: \renewcommand{\labelitemi}{\textbullet}
@@ -19,7 +21,13 @@ Insert this for bullet instead of circles for listpoints:
 For different list spacing replace =\being{...= with the following in the latex file:
 : \begin{itemize} \itemsep1pt \parskip5pt \parsep0pt
 
+Edit personal-info-demo and save as personal-info (gitignored)
+
 Then run =make-cv.sh=.
+
+This script takes the three edited files, combines them with moderncv template
+tex files and calls pdflatex on it all and produces cv.pdf in the project's root
+directory.
 
 ** TODO: 
 - The personal info is duplicated from resume.tex to cover-letter.tex. Should

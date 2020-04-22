@@ -10,13 +10,13 @@
 %\newcites{book,misc}{{Books},{Others}}
 
 \pagestyle{fancy}
-\rfoot{\center\thepage/4}
+\rfoot{\center\thepage/3}
 
 %----------------------------------------------------------------------------------
 %            content
 %----------------------------------------------------------------------------------
 \begin{document}
-\setcounter{page}{3}
+\setcounter{page}{2}
 %\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
@@ -35,16 +35,27 @@
 
 \section{Work}
 %% \subsection{Vocational}
+\cventry{2015--2020}{Programmer}{DigitaleChecklisten}{Amsterdam,
+Netherlands}{}{Startup, offering checklists, but on top of that analytics, and case/process
+management{}%
+\begin{itemize}%
+\item Added features such as search and filter, contact management, user
+interface, testing framework to the main app, but also worked on upgrading,
+importing data and general bug fixing in both front (Ember) and backend (Rails).
+\item Built the accompanying admin app in clojure.
+\end{itemize}}
+
+
 \cventry{2013--2014}{IT Consultant}{Mamre}{Brisbane, Australia}{}{Disability organisation. Implemented databases, websites and supplied general IT support{}%
 \begin{itemize}%
-\item Developed two websites \url{www.mamre.org.au} and \url{www.pavetheway.org.au}
+\item Developed two websites which were in production for a few years
 \item Technologies used: Drupal, CiviCRM, Apache, Linux, VPS (Linode).
 \item Held tutorials on the use of Drupal and CivCRM.
 \end{itemize}}
 
 \cventry{2012--2014}{Developer and maintainer of website}{Firstdoor}{Brisbane, Australia}{}{Business website{}%
 \begin{itemize}%
-\item Built from scratch on nodejs \url{www.firstdoor.com.au}
+\item Built from scratch on nodejs
 \item Technologies used: Javascript, HTML, CSS, Nodejs, AngularJS
 \item Served by custom built server: \url{github.com/michieljoris/bb-server}
 \end{itemize}}
@@ -68,19 +79,23 @@
 %% \cventry{year--year}{Job title}{Employer}{City}{}{Description}
 
 \section{Computer Languages}
-\cvitemwithcomment{Javascript}{Advanced}{Main language used so last couple of years}
+\cvitemwithcomment{Clojure(Script)}{Advanced}{Main language used at work (and for fun) last couple of years}
+\cvitemwithcomment{Javascript}{Advanced}{Built full stack framework in it
+(2014), Ember was frontend framework at work last couple of years}
+\cvitemwithcomment{Ruby}{Intermediate}{Rails was backend framework at work last
+couple of years}
 \cvitemwithcomment{Lisp}{Intermediate}{Did TEOCS in Common Lisp, Scheme for SICP}
-\cvitemwithcomment{Clojure(Script)}{Beginner}{But very keen to pick up..}
-\cvitemwithcomment{Java}{Intermediate}{Not my favorite}
+\cvitemwithcomment{Java}{Intermediate}{Not my favorite, but I did do some hobby
+projects}
 \cvitemwithcomment{C}{Intermediate}{Learned to program in C as a teenager}
-\cvitemwithcomment{HTML, CSS}{Intermediate}{Know what I need}
+\cvitemwithcomment{HTML, CSS, SQL}{Intermediate}{Know what I need}
 \cvitemwithcomment{Haskell, Ruby, Coffeescript, Erlang, PHP}{Beginner}{Dabbled and/or read some books on them}
 %% \cvitemwithcomment{Language 3}{Skill level}{Comment}
 
 \section{Computer skills}
-\cvdoubleitem{Databases}{CouchDB, MongoDB, MySql}{Libs}{AngularJS}
-\cvdoubleitem{Editors}{Emacs, Vim, Eclipse}{CMS}{Drupal, Joomla}
-\cvdoubleitem{OS}{Ubuntu, Arch, Windows, MacOs}{Other}{Docker,Vagrant}
+\cvdoubleitem{Databases}{CouchDB, MySql}{Libs}{React, Ember, Rails}
+\cvdoubleitem{Editors}{Emacs, Vim}{CMS}{Drupal, Joomla}
+\cvdoubleitem{OS}{Ubuntu, Windows, MacOs}{Other}{Docker,Vagrant}
 
 \section{Natural Languages}
 \cvitemwithcomment{Dutch}{Fluent}{Mother tongue}
@@ -97,7 +112,7 @@
 %% \cvitem{Literature}{}
 
 \section{Other interests}
-\cvlistitem{Speed skating, windsurfing, sailing, classical music, literature.}
+\cvlistitem{Piano, speed skating, cycling, sailing, classical music, literature.}
 %% \cvlistitem{Item 2}
 %% \cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
 
